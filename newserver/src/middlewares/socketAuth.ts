@@ -1,5 +1,6 @@
 import { Socket } from "socket.io";
 import { verify } from "jsonwebtoken";
+
 export const authenticateSocket = (
   socket: Socket,
   next: (err?: any) => void

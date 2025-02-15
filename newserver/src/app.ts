@@ -1,7 +1,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import { Server } from "socket.io";
-import http from "http"; 
+import http from "http";
 import authRoutes from "./routes/userLoginRoutes";
 import { authenticateSocket } from "./middlewares/socketAuth";
 
